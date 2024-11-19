@@ -12,7 +12,7 @@ $$I_0 = \begin{pmatrix}
   0 & B & 0 \\
   0 & 0 & C \end{pmatrix}$$
 
-Выразим и распишем в координатах $\dot\vec{w}$:
+Выразим и распишем в координатах $\dot{\vec{w}}$:
 
 $$\begin{pmatrix}
   \dot{w_1} \\

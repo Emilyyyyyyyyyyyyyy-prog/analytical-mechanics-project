@@ -15,14 +15,12 @@ $$I_0 = \begin{pmatrix}
 Выразим и распишем в координатах $\dot\vec{w}$:
 
 $$\begin{pmatrix}
-  \dot{w1} \\
-  \dot{w2} \\
-  \dot{w3} \end{pmatrix} = -I_0^{-1}\vec{w}\times\I_0\vec{w} = - \begin{pmatrix}
+  \dot{w_1} \\
+  \dot{w_2} \\
+  \dot{w_3} \end{pmatrix} = -I_0^{-1}\vec{w}\times\I_0\vec{w} = - \begin{pmatrix}
   \frac{1}{A} & 0 & 0 \\
   0 & \frac{1}{B} & 0 \\
-  0 & 0 & \frac{1}{C} \end{pmatrix} \begin{pmatrix}
-  \w1 \\ \w2 \\ w3\end{pmatrix} \times \begin{pmatrix}
+  0 & 0 & \frac{1}{C} \end{pmatrix} \begin{pmatrix} \w_1 \\ \w_2 \\ w_3\end{pmatrix} \times \begin{pmatrix}
   A & 0 & 0 \\
   0 & B & 0 \\
-  0 & 0 & C \end{pmatrix} \begin{pmatrix}
-  \w1 \\ \w2 \\ w3\end{pmatrix} = $$
+  0 & 0 & C \end{pmatrix} \begin{pmatrix}  \w_1 \\ \w_2 \\ w_3\end{pmatrix} = $$

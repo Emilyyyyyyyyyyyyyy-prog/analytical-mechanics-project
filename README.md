@@ -85,10 +85,10 @@ $$ y = \begin{pmatrix}
 это вектор состояния. Запишем нашу систему в виде уравнения $\dot{y} = f(t, y)$, заменив соотвестввующие переменные на элементы вектора y:
 
 $$\dot{y} = \begin{pmatrix} 
-  -\frac{1}{2} (y[1] \dot y[4] + y[2] \dot y[5] + y[3] \dot y[6]) \\ 
-  frac{1}{2} (y[0] \dot y[4] - y[3] \dot y[5] + y[2] \dot y[6) \\ 
-  frac{1}{2} (y[3] \dot y[4] + y[0] \dot y[5] - y[1] \dot y[6])\\
-  \frac{1}{2} (-y[2] \dot y[4] + y[1] \dot y[5] + y[0] \dot y[6])\\
-  y[5] \dot y[6] \Big(\frac{B}{C} - frac{C}{B}\Big)\\
-  y[4] \dot y[6] \Big(\frac{C}{A} - frac{A}{C}\Big)\\
-  y[4] \dot y[5] \Big(\frac{A}{B} - frac{B}{A}\Big)\end{pmatrix}$$
+  -\frac{1}{2} (y[1] \cdot y[4] + y[2] \cdot y[5] + y[3] \cdot y[6]) \\ 
+  frac{1}{2} (y[0] \cdot y[4] - y[3] \cdot y[5] + y[2] \cdot y[6) \\ 
+  frac{1}{2} (y[3] \cdot y[4] + y[0] \cdot y[5] - y[1] \cdot y[6])\\
+  \frac{1}{2} (-y[2] \cdot y[4] + y[1] \cdot y[5] + y[0] \cdot y[6])\\
+  y[5] \cdot y[6] \Big(\frac{B}{C} - \frac{C}{B} \Big)\\
+  y[4] \cdot y[6] \Big(\frac{C}{A} - \frac{A}{C} \Big)\\
+  y[4] \cdot y[5] \Big(\frac{A}{B} - \frac{B}{A} \Big)\end{pmatrix}$$

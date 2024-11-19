@@ -71,13 +71,17 @@ $$\Lambda\circ \vec{w} = (q_0 + \vec{q}) \circ \vec{w} = -(\vec{q}, \vec{w}) + q
     \dot{q_3} = \frac{1}{2}\Big(q_0w_3 + q_1w_2 - q_2w_1)
   \end{cases}$$
 
-Пусть $$y = \begin{pmatrix} 
+Пусть 
+
+$$ y = \begin{pmatrix} 
   q_0 \\ 
   q_1 \\ 
   q_2\\
   q_3\\
   w_1\\
   w_2\\
-  w_3\end{pmatrix}$$ - вектор состояния. Запишем нашу систему в виде уравнения $\dot{y} = f(t, y)$:
+  w_3\end{pmatrix}$$ 
+  
+- вектор состояния. Запишем нашу систему в виде уравнения $\dot{y} = f(t, y)$:
 
   

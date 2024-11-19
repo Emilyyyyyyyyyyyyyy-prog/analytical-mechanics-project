@@ -43,3 +43,9 @@ $$\begin{pmatrix}
 
 В итоге получаем:
 
+$$\begin{cases}
+    \dot{w_1} = w_2 w_3 \Big(\frac{B}{C} - \frac{C}{B} \Big)\\
+    \dot{w_2} = w_1 w_3 \Big(\frac{C}{A} - \frac{A}{C} \Big)\\
+    \dot{w_3} = w_1 w_2 \Big(\frac{A}{B} - \frac{B}{A} \Big)
+  \end{cases}$$
+

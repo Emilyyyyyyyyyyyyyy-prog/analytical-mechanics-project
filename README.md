@@ -7,7 +7,8 @@
 * кинематическая формула Пуассона: $\dot{\Lambda} = \frac{1}{2} \Lambda\circ\vec{w}$
 
 Запишем тензор инерции в главных осях инерции:
-$$\begin{pmatrix}
+
+$$I_0 = \begin{pmatrix}
   A & 0 & 0 \\
   0 & B & 0 \\
   0 & 0 & C \end{pmatrix}$$

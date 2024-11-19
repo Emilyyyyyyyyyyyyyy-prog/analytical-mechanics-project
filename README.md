@@ -13,7 +13,7 @@ $$I_0 = \begin{pmatrix}
   0 & B & 0 \\
   0 & 0 & C \end{pmatrix}$$
 
-Выразим и распишем в координатах $\dot{\vec{w}}$:
+Выразим и распишем в координатах `$\dot{\vec{w}}$`:
 
 $$\begin{pmatrix}
   \dot{w_1} \\
@@ -49,3 +49,24 @@ $$\begin{cases}
     \dot{w_3} = w_1 w_2 \Big(\frac{A}{B} - \frac{B}{A} \Big)
   \end{cases}$$
 
+Теперь, расписав уравнение Пуассона, так же выразим производные `$q_0, q_1, q_2, q_3$`:
+
+$$\Lambda\circ\vec{w} = (q_0 + \vec{q}) \circ \vec{w} = -(\vec{q} \dot \vec{w}) + q_0\vec{w} + \vec{q}\times\vec{w} = -(q_1w_1 + q_2w_2 + q_3w_3) + q_0 \begin{pmatrix} 
+  w_1 \\ 
+  w_2 \\ 
+  w_3\end{pmatrix} + \begin{pmatrix} 
+  q_1 \\ 
+  q_2 \\ 
+  q_3\end{pmatrix} \times \begin{pmatrix} 
+  w_1 \\ 
+  w_2 \\ 
+  w_3\end{pmatrix}$$
+
+  Скалярное слагаемое правой части - скалярная часть кватерниона `$\dot{\Lambda}$`, векторная соответствует векторной части. В итоге получим:
+
+  $$\begin{cases}
+    \dot{q_0} = -\frac{1}{2}\Big(q_1w_1 + q_2w_2 + q_3w_3)\\
+    \dot{q_1} = \frac{1}{2}\Big(q_0w_1 + q_2w_3 - q_3w_2)\\
+    \dot{q_2} = \frac{1}{2}\Big(q_0w_2 + q_3w_1 - q_1w_3)\\
+    \dot{q_3} = \frac{1}{2}\Big(q_0w_3 + q_1w_2 - q_2w_1)
+  \end{cases}$$

@@ -30,4 +30,16 @@ $$\begin{pmatrix}
   0 & 0 & C \end{pmatrix} \begin{pmatrix}  
   w_1 \\ 
   w_2 \\ 
-  w_3\end{pmatrix} = $$
+  w_3\end{pmatrix} = -\begin{pmatrix}  
+  \frac{w_1}{A} \\ 
+  \frac{w_2}{B} \\ 
+  \frac{w_3}{C}\end{pmatrix} \times \begin{pmatrix}  
+  w_1 \dot A \\ 
+  w_2 \dot B\\ 
+  w_3 \dot C\end{pmatrix} = -\begin{pmatrix}  
+  w_2 w_3 \Big(\frac{B}{C} - \frac{C}{B} \Big) \\ 
+  w_1 w_2 \Big(\frac{C}{A} - \frac{A}{c} \Big) \\ 
+  w_1 w_2 \Big(\frac{A}{B} - \frac{B}{A} \Big)\end{pmatrix}$$
+
+В итоге получаем:
+

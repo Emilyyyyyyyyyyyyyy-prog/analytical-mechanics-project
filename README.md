@@ -34,9 +34,9 @@ $$\begin{pmatrix}
   \frac{w_1}{A} \\ 
   \frac{w_2}{B} \\ 
   \frac{w_3}{C}\end{pmatrix} \times \begin{pmatrix}  
-  w_1 \dot A \\ 
-  w_2 \dot B\\ 
-  w_3 \dot C\end{pmatrix} = -\begin{pmatrix}  
+  w_1 \cdot A \\ 
+  w_2 \cdot B\\ 
+  w_3 \cdot C\end{pmatrix} = -\begin{pmatrix}  
   w_2 w_3 \Big(\frac{B}{C} - \frac{C}{B} \Big) \\ 
   w_1 w_2 \Big(\frac{C}{A} - \frac{A}{c} \Big) \\ 
   w_1 w_2 \Big(\frac{A}{B} - \frac{B}{A} \Big)\end{pmatrix}$$
@@ -86,8 +86,8 @@ $$ y = \begin{pmatrix}
 
 $$\dot{y} = \begin{pmatrix} 
   -\frac{1}{2} (y[1] \cdot y[4] + y[2] \cdot y[5] + y[3] \cdot y[6]) \\ 
-  frac{1}{2} (y[0] \cdot y[4] - y[3] \cdot y[5] + y[2] \cdot y[6) \\ 
-  frac{1}{2} (y[3] \cdot y[4] + y[0] \cdot y[5] - y[1] \cdot y[6])\\
+  \frac{1}{2} (y[0] \cdot y[4] - y[3] \cdot y[5] + y[2] \cdot y[6) \\ 
+  \frac{1}{2} (y[3] \cdot y[4] + y[0] \cdot y[5] - y[1] \cdot y[6])\\
   \frac{1}{2} (-y[2] \cdot y[4] + y[1] \cdot y[5] + y[0] \cdot y[6])\\
   y[5] \cdot y[6] \Big(\frac{B}{C} - \frac{C}{B} \Big)\\
   y[4] \cdot y[6] \Big(\frac{C}{A} - \frac{A}{C} \Big)\\

@@ -51,7 +51,7 @@ $$\begin{cases}
 
 Теперь, расписав уравнение Пуассона, так же выразим производные $q_0, q_1, q_2, q_3$:
 
-$$\Lambda\circ\vec{w} = (q_0 + \vec{q}) \circ \vec{w} = -(\vec{q} \dot \vec{w}) + q_0\vec{w} + \vec{q}\times\vec{w} = -(q_1w_1 + q_2w_2 + q_3w_3) + q_0 \begin{pmatrix} 
+$$\Lambda\circ \vec{w} = (q_0 + \vec{q}) \circ \vec{w} = -(\vec{q} \dot \vec{w}) + q_0 \vec{w} + \vec{q} \times \vec{w} = -(q_1w_1 + q_2w_2 + q_3w_3) + q_0 \begin{pmatrix} 
   w_1 \\ 
   w_2 \\ 
   w_3\end{pmatrix} + \begin{pmatrix} 

@@ -7,14 +7,14 @@
 * кинематическая формула Пуассона: $\dot{\Lambda} = \frac{1}{2} \Lambda\circ\vec{w}$
 
 Запишем тензор инерции в главных осях инерции:
-$I_0 = \begin{pmatrix}
+$$I_0 = \begin{pmatrix}
   A & 0 & 0 \\
   0 & B & 0 \\
-  0 & 0 & C \end{pmatrix}$
+  0 & 0 & C \end{pmatrix}$$
 
 Выразим и распишем в координатах $\dot\vec{w}$:
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
   \dot{w1} \\
   \dot{w2} \\
   \dot{w3} \end{pmatrix} = -I_0^{-1}\vec{w}\times\I_0\vec{w} = - \begin{pmatrix}
@@ -25,4 +25,4 @@ $\begin{pmatrix}
   A & 0 & 0 \\
   0 & B & 0 \\
   0 & 0 & C \end{pmatrix} \begin{pmatrix}
-  \w1 \\ \w2 \\ w3\end{pmatrix} = $
+  \w1 \\ \w2 \\ w3\end{pmatrix} = $$

@@ -1,2 +1,7 @@
-# analytical-mechanics-project
-a model of motion of a solid body without external forces
+## Проект по аналитической механике
+-- модель движения твердого тела --
+
+### 1. Теоретические расчеты
+Для модели потребуются две основные формулы:
+* динамическая формула Эйлера: $I_0 \dot{\vec{w}} + \vec{w} \times I_0 \vec{w} = M_0^{ex}$, для нашей системы $M_0^{ex} = 0$
+* кинематическая формула Пуассона: $\dot{\Lambda} = \frac{1}{2} \Lambda\circ\vec{w}$ 

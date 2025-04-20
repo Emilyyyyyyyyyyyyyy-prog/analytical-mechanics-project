@@ -13,3 +13,10 @@ $$ \ddot{\theta} + \left(g + A \omega^2 \cos(\omega t)\right) \frac{\sin(\theta)
 
 ### 3. Визуализация
 ![гифка](fluct.gif)
+
+### 4. Графики:
+![1](1.png)
+
+![2](2.png)
+
+![3](3.png)

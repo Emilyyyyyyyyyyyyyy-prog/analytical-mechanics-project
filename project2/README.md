@@ -11,3 +11,5 @@
  
 $$ \ddot{\theta} + \left(g + A \omega^2 \cos(\omega t)\right) \frac{\sin(\theta)}{L} = 0 $$
 
+### 3. Визуализация
+![fluct.gif]
